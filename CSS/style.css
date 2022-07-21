@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(5rem, 1fr));
+}
+
+.header {
+    align-items: center;
+    display: inline-flex;
+    flex-flow: row wrap;
+    grid-column: 1 / span 4;
+}
+
+.logos {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.logos img {
+    align-self: end;
+    width: 15%;
+}
+
+.titulo {
+    font-size: 2vw;
+}
+
+.ejerciciosJS { /* section  */
+    background-color: #111;
+    grid-column: 1 / span 3;
+    gap: 2rem;
+    display: grid;
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    padding: 20px;
+    text-align: center;
+}
+
+.ejerciciosJS__articulos {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    overflow-y: auto;
+    line-height: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+}
+
+.ejerciciosJS__articulos h2,p,a{
+    margin: auto 10px;
+}
+
+.articulos__boton {
+    background-color: #222;
+    border: 3px solid #222;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.articulos__boton:hover {
+    background-color: #000;
+    border: 3px solid #000;
+    color: #ccc;
+    font-weight: 900;
+    text-shadow: 0 0 20px white; /*horizontal, vertical, desenfonque, color*/
+    box-shadow: 2px 2px 2px #ccc; /*horizontal, vertical, desenfonque, color*/
+}
+
+.aside {
+    background-color: blue;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.tituloAside {
+    font-size: 1.8rem;
+    margin: auto auto 5px auto;
+}
+
+.listaDeEjercicios {
+    font-size: 2rem;
+    margin: 0 auto auto auto;
+}
+
+.footer {
+    background-color: blueviolet;
+    grid-column: 1 / span 4;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.copyright h4{
+    color: #999;
+}
+
+.redesSociales {
+    display: flex;
+}
+
+.redesSociales p, i{
+    color: #999;
+}

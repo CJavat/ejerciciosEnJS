@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="IMG/logo.png">
+        <script src="https://kit.fontawesome.com/2ea7eef268.js" crossorigin="anonymous"></script>
+        <!--------- ESTILOS ---------->
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Ejercicios para Front-End</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="logos" id="logos">
+                <img src="IMG/HTML.png" alt="Logo-HTML">
+                <img src="IMG/CSS.png" alt="Logo-CSS">
+                <img src="IMG/JS.png" alt="Logo-JS">
+            </div>
+            <h1 class="titulo">PRACTICAS CON JAVASCRIPT</h1>
+            <!--AGREGARLOS CON UN FORM PERO NECESITO BASE DE DATOS. 
+            <form action="POST" class="agregarEjercicios" id="agregarEjercicios">
+                <label for="agregarEjercicios__titulo">AGREGAR NUEVOS EJERCICIOS EN JS</label>
+                <input type="text" class="agregarEjercicios__titulo" id="agregarEjercicios__titulo" placeholder="TÍTULO DEL EJERCICIO">
+                <input type="text" class="agregarEjercicio__descripcion" id="agregarEjercicio__descripcion" placeholder="DESCRIPCIÓN">
+            </form> -->
+        </header>
+        <section class="ejerciciosJS" id="ejerciciosJS">
+            <article class="ejerciciosJS__articulos" id="ejerciciosJS__articulos">
+                <h2>1 - COMPROBAR EDAD</h2>
+                <p>Pide la edad y si es mayor de 18 años indica que ya puede conducir.</p>
+                <a href="http://127.0.0.1:5500/LANGING%20PAGES/ejerciciouno.html" target="_blank"><button class="articulos__boton" id="articulos__boton">IR AL EJERCICIO</button></a>
+            </article>
+            <article class="ejerciciosJS__articulos" id="ejerciciosJS__articulos">
+                <h2>2 - COMPROBAR CALIFICACIÓN</h2>
+                <p>
+                    Pide una nota (número). Muestra la calificación según la nota:
+                    0-3: Muy deficiente
+                    3-5: Insuficiente
+                    5-6: Suficiente
+                    6-7: Bien
+                    7-9: Notable
+                    9-10: Sobresaliente
+                </p>
+                <a href="http://127.0.0.1:5500/LANGING%20PAGES/ejerciciodos.html" target="_blank"><button class="articulos__boton" id="articulos__boton">IR AL EJERCICIO</button></a>
+            </article>
+            <article class="ejerciciosJS__articulos" id="ejerciciosJS__articulos">
+                <h2>3 - CONCATENAR CADENAS</h2>
+                <p>
+                    Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. 
+                    Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
+                </p>
+                <a href="http://127.0.0.1:5500/LANGING%20PAGES/ejercicioTres.html" target="_blank"><button class="articulos__boton" id="articulos__boton">IR AL EJERCICIO</button></a>
+            </article>
+            <article class="ejerciciosJS__articulos" id="ejerciciosJS__articulos">
+                <h2>4 - SUMAR NUMEROS INTRODUCIDOS</h2>
+                <p>
+                    Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo. 
+                    Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
+                </p>
+                <a href="http://127.0.0.1:5500/LANGING%20PAGES/ejercicioCuatro.html" target="_blank"><button class="articulos__boton" id="articulos__boton">IR AL EJERCICIO</button></a>
+            </article>
+            <article class="ejerciciosJS__articulos" id="ejerciciosJS__articulos">
+                <h2>5 - CALCULAR DNI</h2>
+                <p>
+                    Realizar una página con un script que calcule el valor de la letra de un número de DNI (Documento nacional de indentidad).
+                    El algoritmo para calcular la letra del dni es el siguiente :
+
+                    El número debe ser entre 0 y 99999999
+                    Debemos calcular el resto de la división entera entre el número y el número 23.
+                    Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:  
+                            (T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E)
+                    Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
+                    Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
+                </p>
+                <a href="http://127.0.0.1:5500/LANGING%20PAGES/ejercicioCinco.html" target="_blank"><button class="articulos__boton" id="articulos__boton">IR AL EJERCICIO</button></a>
+            </article>
+        </section>
+        <aside class="aside" id="aside">
+            <h3 class="tituloAside" id="tituloAside">SELECCIONAR EL EJERCICIO</h3>
+            <ul class="listaDeEjercicios" id="listaDeEjercicios">
+                <li class="listaDeEjercicios__ejercicios">
+                    <a href="#">texto de prueba</a>
+                </li>
+                <li class="listaDeEjercicios__ejercicios">
+                    <a href="#">texto de prueba</a>
+                </li>
+                <li class="listaDeEjercicios__ejercicios">
+                    <a href="#">texto de prueba</a>
+                </li>
+                <li class="listaDeEjercicios__ejercicios">
+                    <a href="#">texto de prueba</a>
+                </li>
+                <li class="listaDeEjercicios__ejercicios">
+                    <a href="#">texto de prueba</a>
+                </li>
+            </ul>
+        </aside>
+        <footer class="footer" id="footer">
+            <div class="copyright" id="copyright">
+                <h4>Copyright - Todos los derechos reservados.</h4>
+            </div>
+            <div class="redesSociales" id="redesSociales">
+                <p>Contactame:</p>
+                <a href="https://www.facebook.com/" class="facebook" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.twitter.com/" class="twitter" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.github.com/" class="github" id="github"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+
+        <!-------- SCRIPT -------->
+        <script src="JS/script.js"></script>
+    </body>
+</html>
