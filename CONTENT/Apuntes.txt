@@ -18,7 +18,7 @@
     * .padStart(numero, variable) ------> Rellena la cadena (al inicio) las veces que le des y con la palabra que quieras. 
     * .padEnd(numero, variable) --------> Rellena la cadena (al final) las veces que le des y con la palabra que quieras.
     * .repeat(numero) ------------------> Repite la cadena las veces que se le indique.
-    * .split(variable) ----------------->  Divide la cadena como queramos.
+    * .split(variable) -----------------> Divide la cadena como queramos.
     * .subString(varInicio, varFinal) --> Devuelve lo que seleccionamos.
     * .toLowerCase() -------------------> Convierte la cadena a minuscula.
     * .toUpperCase() -------------------> Convierte la cadena a mayuscula.
