@@ -169,7 +169,7 @@
         document.write(resultado2);
         document.write(resultado3);
     
-    Creación de elemeentos.
+    Creación de elementos.
         .createElement("Tipo de elemento") --> Crea un elemento.
         .createTextNode() -------------------> Crea el contenido que va a llevar el Elemento.
         .appendChild() ----------------------> Agrega el item al contenido padre. (Ejemplo: CONTENEDOR.appendChild(itemElemento);)
